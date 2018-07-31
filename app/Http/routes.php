@@ -24,3 +24,5 @@ Route::get('/admin/user/roles', ['middleware'=>['role','auth','web'], function()
     return "Middleware role";
 
 }]);
+
+
